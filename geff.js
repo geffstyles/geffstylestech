@@ -38,3 +38,25 @@
                 header.style.boxShadow = 'none';
             }
         });
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 80) {
+        header.style.boxShadow = '0 4px 30px rgba(0,0,0,0.3)';
+    } else {
+        header.style.boxShadow = 'none';
+    }
+});
+
+document.addEventListener('click', function (e) {
+
+    const navLinks = document.getElementById('navLinks');
+    const hamburger = document.getElementById('hamburger');
+
+    if (
+        !navLinks.contains(e.target) &&
+        !hamburger.contains(e.target)
+    ) {
+        navLinks.classList.remove('active');
+    }
+
+});
