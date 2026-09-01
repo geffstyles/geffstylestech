@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GEFFSTYLES TECH HUB | Web & App Developer</title>
+    <title>GEFFSTYLES WEB SAT | Website & App Development</title>
+    <meta name="description" content="GEFFSTYLES WEB SAT - Professional website development, mobile apps, e-commerce and UI/UX design based in Awka, Nigeria." />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link rel="stylesheet" href="geff.css">
+    <link rel="stylesheet" href="geff.css" />
+    <link rel="stylesheet" href="animations.css" />
     <script src="geff.js" defer></script>
-
 </head>
 
 <body>
 
+    <!-- Header -->
     <header class="header" id="header">
         <div class="container">
-            <a href="#" class="logo">
-                GEFFSTYLES TECH HUB
-            </a>
-
+            <a href="index.html" class="logo">GEFFSTYLES <span>WEB SAT</span></a>
             <nav class="nav-links" id="navLinks">
-                <a href="#hero">Home</a>
-                <a href="#services">Services</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-                <a style="color: black;" href="https://wa.me/2347086797982" target="_blank" class="btn btn-primary"
-                    style="padding: 10px 24px; font-size:0.9rem;">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+                <a href="https://wa.me/2347086797982" target="_blank" class="btn btn-primary btn-sm">
                     <i class="fab fa-whatsapp"></i> Hire Me
                 </a>
             </nav>
@@ -35,20 +35,20 @@
         </div>
     </header>
 
+    <!-- Hero -->
     <section class="hero" id="hero">
         <div class="container">
-            <div class="hero-content">
+            <div class="hero-content animate-fade-left">
                 <p class="tagline"><i class="fas fa-code"></i> Website &amp; App Developer</p>
                 <h1>Building <span>Digital Solutions</span> That Elevate Your Brand</h1>
-                <p>I craft modern, high-performance websites and mobile applications tailored to your business needs.
-                    Let's bring your vision to life.</p>
+                <p>I craft modern, high-performance websites and mobile applications tailored to your business needs. From concept to launch — clean code, beautiful design, and results that matter.</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Let's Talk</a>
-                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                    <a href="contact.html" class="btn btn-primary btn-shine">Let's Talk</a>
+                    <a href="services.html" class="btn btn-outline">Explore Services</a>
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="code-icon"><i class="fas fa-laptop-code"></i></div>
+            <div class="hero-visual animate-fade-right">
+                <div class="code-icon animate-float"><i class="fas fa-laptop-code"></i></div>
                 <div class="profile-card">
                     <div class="avatar"><i class="fas fa-user-circle"></i></div>
                     <h3>Geffstyles</h3>
@@ -57,64 +57,85 @@
                     <div class="info-item"><i class="fas fa-phone-alt"></i> +234 916 466 2884</div>
                     <div class="info-item"><i class="fab fa-whatsapp"></i> +234 708 679 7982</div>
                     <div class="social-mini">
-                        <a href="tel:+2349164662884" aria-label="Call Me">
-                            <i class="fas fa-mobile-alt"></i>
-                        </a>
-                        <a href="https://instagram.com/geffstyles" target="_blank" aria-label="Instagram"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://tiktok.com/@geffstyles" target="_blank" aria-label="TikTok"><i
-                                class="fab fa-tiktok"></i></a>
-                        <a href="https://wa.me/2347086797982" target="_blank" aria-label="WhatsApp"><i
-                                class="fab fa-whatsapp"></i></a>
+                        <a href="tel:+2349164662884" aria-label="Call Me"><i class="fas fa-mobile-alt"></i></a>
+                        <a href="https://instagram.com/geffstyles" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@geffstyles" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/2347086797982" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section" id="services">
+    <!-- Stats Bar -->
+    <section class="section" style="padding: 60px 0; border-bottom: 1px solid rgba(245,176,66,0.06);">
         <div class="container">
-            <h2 class="section-title">What I <span>Deliver</span></h2>
-            <p class="section-subtitle">From concept to launch — I provide end-to-end development services with clean
-                code and modern design.</p>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="icon"><i class="fas fa-globe"></i></div>
-                    <h3>Website Development</h3>
-                    <p>Responsive, fast, and SEO-optimised websites built with the latest technologies to grow your
-                        online presence.</p>
+            <div class="features-row">
+                <div class="feature-box reveal">
+                    <i class="fas fa-rocket"></i>
+                    <h4>60+ Projects</h4>
+                    <p>Successfully delivered across web & mobile</p>
                 </div>
-                <div class="service-card">
-                    <div class="icon"><i class="fas fa-mobile-alt"></i></div>
-                    <h3>App Development</h3>
-                    <p>Cross-platform mobile applications that deliver seamless user experiences on iOS and Android.</p>
+                <div class="feature-box reveal delay-1">
+                    <i class="fas fa-smile"></i>
+                    <h4>98% Satisfaction</h4>
+                    <p>Clients who love the results we deliver</p>
                 </div>
-                <div class="service-card">
-                    <div class="icon"><i class="fas fa-shopping-cart"></i></div>
-                    <h3>E-Commerce Solutions</h3>
-                    <p>Custom online stores with secure payments, inventory management, and intuitive shopping
-                        interfaces.</p>
+                <div class="feature-box reveal delay-2">
+                    <i class="fas fa-headset"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Always available when you need help</p>
                 </div>
-                <div class="service-card">
-                    <div class="icon"><i class="fas fa-paint-brush"></i></div>
-                    <h3>UI/UX Design</h3>
-                    <p>User-centred designs that blend aesthetics with functionality to keep your audience engaged.</p>
+                <div class="feature-box reveal delay-3">
+                    <i class="fas fa-clock"></i>
+                    <h4>On-Time Delivery</h4>
+                    <p>Deadlines respected, quality never compromised</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section" id="about">
+    <!-- Services Preview -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="section-title reveal">What I <span>Deliver</span></h2>
+            <p class="section-subtitle reveal">From concept to launch — end-to-end development services with clean code and modern design.</p>
+            <div class="services-grid">
+                <div class="service-card reveal hover-lift">
+                    <div class="icon"><i class="fas fa-globe"></i></div>
+                    <h3>Website Development</h3>
+                    <p>Responsive, fast, and SEO-optimised websites built with the latest technologies to grow your online presence.</p>
+                </div>
+                <div class="service-card reveal delay-1 hover-lift">
+                    <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>App Development</h3>
+                    <p>Cross-platform mobile applications that deliver seamless user experiences on iOS and Android.</p>
+                </div>
+                <div class="service-card reveal delay-2 hover-lift">
+                    <div class="icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>E-Commerce Solutions</h3>
+                    <p>Custom online stores with secure payments, inventory management, and intuitive shopping interfaces.</p>
+                </div>
+                <div class="service-card reveal delay-3 hover-lift">
+                    <div class="icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centred designs that blend aesthetics with functionality to keep your audience engaged.</p>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:48px;" class="reveal">
+                <a href="services.html" class="btn btn-outline">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Snippet -->
+    <section class="section" style="background: rgba(255,255,255,0.015);">
         <div class="container">
             <div class="about-grid">
-                <div class="about-text">
+                <div class="about-text reveal">
                     <h2>Why Work With <span>Me?</span></h2>
-                    <p>I'm a passionate Website and App Developer based in Awka, Nigeria. With a keen eye for detail and
-                        a drive for innovation, I help businesses and individuals establish a powerful digital
-                        footprint.</p>
-                    <p>Every project I undertake is treated with precision — from planning and design to deployment and
-                        support. My goal is to deliver solutions that are not only visually stunning but also robust and
-                        scalable.</p>
+                    <p>I'm a passionate Website and App Developer based in Awka, Nigeria. With a keen eye for detail and a drive for innovation, I help businesses and individuals establish a powerful digital footprint.</p>
+                    <p>Every project is treated with precision — from planning and design to deployment and support. My goal is to deliver solutions that are not only visually stunning but also robust and scalable.</p>
                     <div class="stats">
                         <div class="stat-item">
                             <h4>60+</h4>
@@ -125,24 +146,21 @@
                             <p>Client Satisfaction</p>
                         </div>
                         <div class="stat-item">
-                            <h4>24/7</h4>
-                            <p>Support</p>
+                            <h4>5+</h4>
+                            <p>Years Experience</p>
                         </div>
                     </div>
+                    <a href="about.html" class="btn btn-primary" style="margin-top:28px;">Learn More About Me</a>
                 </div>
-                <div class="about-visual">
+                <div class="about-visual reveal delay-2">
                     <div class="code-block">
-                        <div class="line comment">// Geffstyles — code with passion</div>
-                        <div class="line"><span class="keyword">const</span> <span class="variable">developer</span> = {
-                        </div>
+                        <div class="line comment">// GEFFSTYLES WEB SAT — code with passion</div>
+                        <div class="line"><span class="keyword">const</span> <span class="variable">developer</span> = {</div>
                         <div class="line">&nbsp;&nbsp;name: <span class="string">"Geffstyles"</span>,</div>
                         <div class="line">&nbsp;&nbsp;location: <span class="string">"Awka, Nigeria"</span>,</div>
-                        <div class="line">&nbsp;&nbsp;skills: [<span class="string">"Web"</span>, <span
-                                class="string">"App"</span>, <span class="string">"UI/UX"</span>],</div>
-                        <div class="line">&nbsp;&nbsp;<span class="keyword">get</span> <span
-                                class="variable">hireable</span>() {</div>
-                        <div class="line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span
-                                class="variable">true</span>;</div>
+                        <div class="line">&nbsp;&nbsp;skills: [<span class="string">"Web"</span>, <span class="string">"App"</span>, <span class="string">"UI/UX"</span>],</div>
+                        <div class="line">&nbsp;&nbsp;<span class="keyword">get</span> <span class="variable">hireable</span>() {</div>
+                        <div class="line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="variable">true</span>;</div>
                         <div class="line">&nbsp;&nbsp;}</div>
                         <div class="line">};</div>
                         <div class="line"><span class="comment">// Ready to build something great?</span></div>
@@ -152,71 +170,215 @@
         </div>
     </section>
 
-    <section class="section" id="contact">
+    <!-- Process -->
+    <section class="section">
         <div class="container">
-            <h2 class="section-title">Let's <span>Connect</span></h2>
-            <p class="section-subtitle">Have a project in mind? Reach out and let's make it happen.</p>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h3>Get In <span>Touch</span></h3>
-                    <p>I'm always open to new opportunities, collaborations, or just a friendly chat. Drop me a message!
-                    </p>
-                    <div class="contact-details">
-                        <div class="detail">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>Awka, <strong>Nigeria</strong></div>
-                        </div>
-                        <div class="detail">
-                            <i class="fas fa-phone-alt"></i>
-                            <div>+234 916 466 2884 <small>Call / SMS</small></div>
-                        </div>
-                        <div class="detail">
-                            <i class="fab fa-whatsapp"></i>
-                            <div>+234 708 679 7982 <small>WhatsApp</small></div>
-                        </div>
-                        <div class="detail">
-                            <i class="fas fa-envelope"></i>
-                            <div>chibuikenkwute@gmail.com <small>Email</small></div>
-                        </div>
-                    </div>
-                    <div class="contact-social">
-                        <a href="tel:+2349164662884" aria-label="Call Me">
-                            <i class="fas fa-phone-alt"></i></a>
-                        <a href="https://instagram.com/geffstyles" target="_blank" aria-label="Instagram"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://tiktok.com/@geffstyles" target="_blank" aria-label="TikTok"><i
-                                class="fab fa-tiktok"></i></a>
-                        <a href="https://wa.me/2347086797982" target="_blank" aria-label="WhatsApp"><i
-                                class="fab fa-whatsapp"></i></a>
-                    </div>
+            <h2 class="section-title reveal">How I <span>Work</span></h2>
+            <p class="section-subtitle reveal">A clear, collaborative process that turns your ideas into polished digital products.</p>
+            <div class="process-grid">
+                <div class="process-card reveal">
+                    <div class="step-num">01</div>
+                    <h3>Discovery</h3>
+                    <p>We discuss your goals, audience, and requirements to define a clear project roadmap.</p>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" placeholder="John Doe" required />
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" placeholder="john@example.com" required />
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" placeholder="Tell me about your project..." required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send
-                        Message</button>
-                </form>
+                <div class="process-card reveal delay-1">
+                    <div class="step-num">02</div>
+                    <h3>Design</h3>
+                    <p>Wireframes and visual designs that match your brand and deliver great user experience.</p>
+                </div>
+                <div class="process-card reveal delay-2">
+                    <div class="step-num">03</div>
+                    <h3>Development</h3>
+                    <p>Clean, scalable code built with modern frameworks and best practices.</p>
+                </div>
+                <div class="process-card reveal delay-3">
+                    <div class="step-num">04</div>
+                    <h3>Launch & Support</h3>
+                    <p>Thorough testing, deployment, and ongoing support to keep everything running smoothly.</p>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Portfolio Preview -->
+    <section class="section" style="background: rgba(255,255,255,0.015);">
+        <div class="container">
+            <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+            <p class="section-subtitle reveal">A selection of work that showcases quality, creativity, and results.</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-card reveal hover-lift">
+                    <div class="card-img"><i class="fas fa-store"></i></div>
+                    <div class="card-body">
+                        <h3>E-Commerce Store</h3>
+                        <p>Full-featured online shop with payment integration, product management and responsive design.</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card reveal delay-1 hover-lift">
+                    <div class="card-img"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="card-body">
+                        <h3>Business Mobile App</h3>
+                        <p>Cross-platform mobile application for service booking and customer management.</p>
+                        <div class="tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card reveal delay-2 hover-lift">
+                    <div class="card-img"><i class="fas fa-building"></i></div>
+                    <div class="card-body">
+                        <h3>Corporate Website</h3>
+                        <p>Modern company website with CMS, blog, and lead generation features.</p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">SEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:48px;" class="reveal">
+                <a href="portfolio.html" class="btn btn-outline">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Technologies I <span>Use</span></h2>
+            <p class="section-subtitle reveal">Modern tools and frameworks for reliable, high-performance solutions.</p>
+            <div class="tech-grid reveal">
+                <div class="tech-item"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="tech-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="tech-item"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="tech-item"><i class="fab fa-react"></i> React</div>
+                <div class="tech-item"><i class="fab fa-node-js"></i> Node.js</div>
+                <div class="tech-item"><i class="fab fa-php"></i> PHP</div>
+                <div class="tech-item"><i class="fab fa-wordpress"></i> WordPress</div>
+                <div class="tech-item"><i class="fab fa-android"></i> Flutter</div>
+                <div class="tech-item"><i class="fab fa-figma"></i> Figma</div>
+                <div class="tech-item"><i class="fas fa-database"></i> MySQL</div>
+                <div class="tech-item"><i class="fab fa-git-alt"></i> Git</div>
+                <div class="tech-item"><i class="fas fa-server"></i> Firebase</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" style="background: rgba(255,255,255,0.015);">
+        <div class="container">
+            <h2 class="section-title reveal">What Clients <span>Say</span></h2>
+            <p class="section-subtitle reveal">Real feedback from people I've had the pleasure of working with.</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Geffstyles delivered our company website ahead of schedule. The design is clean, fast, and exactly what we needed. Highly recommended!"</p>
+                    <div class="author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Chinedu Okeke</h4>
+                            <span>Business Owner, Awka</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal delay-1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Professional, responsive, and skilled. Our e-commerce store is performing better than expected. Great communication throughout."</p>
+                    <div class="author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Amaka Eze</h4>
+                            <span>Online Retailer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal delay-2">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"From idea to launch, the process was smooth. The mobile app works perfectly and our customers love it. Will definitely work together again."</p>
+                    <div class="author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Tunde Bello</h4>
+                            <span>Startup Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container reveal">
+            <h2>Ready to Start Your <span>Project?</span></h2>
+            <p>Let's discuss your ideas and turn them into a powerful digital product. Get in touch today — free consultation available.</p>
+            <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+                <a href="contact.html" class="btn btn-primary btn-shine">Get a Free Quote</a>
+                <a href="https://wa.me/2347086797982" target="_blank" class="btn btn-outline"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 <span>GEFFSTYLES TECH HUB</span> — Website &amp; App Developer. All rights reserved.</p>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">GEFFSTYLES <span>WEB SAT</span></a>
+                    <p>Professional website & app development services based in Awka, Nigeria. Building digital solutions that elevate brands.</p>
+                    <div class="contact-social" style="margin-top:0;">
+                        <a href="tel:+2349164662884" aria-label="Call"><i class="fas fa-phone-alt"></i></a>
+                        <a href="https://instagram.com/geffstyles" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://tiktok.com/@geffstyles" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/2347086797982" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://wa.me/2347086797982" target="_blank">WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:chibuikenkwute@gmail.com">chibuikenkwute@gmail.com</a></li>
+                        <li><a href="tel:+2349164662884">+234 916 466 2884</a></li>
+                        <li>Awka, Nigeria</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 <span>GEFFSTYLES WEB SAT</span> — Website &amp; App Developer. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-    <a href="https://wa.me/2347086797982" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/2347086797982" target="_blank" class="whatsapp-float animate-pulse-glow" aria-label="Chat on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
