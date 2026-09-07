@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | GEFFSTYLES WEB SAT</title>
-    <meta name="description" content="Selected projects by GEFFSTYLES WEB SAT - websites, apps and digital solutions." />
+    <title>Portfolio & Case Studies | GEFFSTYLES WEB SAT</title>
+    <meta name="description" content="Selected website, e-commerce and app projects by GEFFSTYLES WEB SAT." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -16,15 +16,18 @@
     <header class="header" id="header">
         <div class="container">
             <a href="index.html" class="logo">GEFFSTYLES <span>WEB SAT</span></a>
-            <nav class="nav-links" id="navLinks">
+                        <nav class="nav-links" id="navLinks">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="services.html">Services</a>
                 <a href="portfolio.html" class="active">Portfolio</a>
+                <a href="process.html">Process</a>
+                <a href="blog.html">Blog</a>
                 <a href="pricing.html">Pricing</a>
+                <a href="testimonials.html">Testimonials</a>
                 <a href="faq.html">FAQ</a>
                 <a href="contact.html">Contact</a>
-                <a href="https://wa.me/2347086797982" target="_blank" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Hire Me</a>
+                <a href="https://wa.me/2347086797982?text=Hi%20GEFFSTYLES%20WEB%20SAT%2C%20I%27m%20interested%20in%20a%20project." target="_blank" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> Hire Me</a>
             </nav>
             <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
         </div>
@@ -32,85 +35,108 @@
 
     <section class="page-hero">
         <div class="container">
-            <h1 class="animate-fade-up">My <span>Portfolio</span></h1>
-            <p class="animate-fade-up delay-1">A selection of projects that showcase quality, creativity and results.</p>
+            <h1 class="animate-fade-up">Portfolio &amp; <span>case studies</span></h1>
+            <p class="animate-fade-up delay-1">Selected work across websites, online stores and mobile applications. Add screenshots in <code>images/portfolio/</code>.</p>
         </div>
     </section>
 
     <section class="section">
         <div class="container">
+            <div class="case-grid">
+                <article class="case-card reveal">
+                    <div class="case-img">
+                        <img src="images/portfolio/project-1.jpg" alt="E-Commerce Fashion Store" class="img-slot" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fas fa-image\'></i><span>Add images/portfolio/project-1.jpg</span></div>'">
+                    </div>
+                    <div class="case-body">
+                        <div class="case-label">E-Commerce</div>
+                        <h3>Fashion online store</h3>
+                        <div class="case-meta">
+                            <span class="tag">React</span><span class="tag">Payments</span><span class="tag">Admin</span>
+                        </div>
+                        <p><strong>Challenge:</strong> Client needed a store that could accept payments, manage stock and look trustworthy on mobile.</p>
+                        <p><strong>Solution:</strong> Custom storefront with catalogue, cart, secure checkout and simple admin for products and orders.</p>
+                        <div class="case-result"><strong>Result:</strong> Live store ready for sales with mobile-optimised checkout.</div>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Start a similar project</a>
+                    </div>
+                </article>
+
+                <article class="case-card reverse reveal">
+                    <div class="case-img">
+                        <img src="images/portfolio/project-2.jpg" alt="Service Booking App" class="img-slot" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fas fa-image\'></i><span>Add images/portfolio/project-2.jpg</span></div>'">
+                    </div>
+                    <div class="case-body">
+                        <div class="case-label">Mobile App</div>
+                        <h3>Service booking app</h3>
+                        <div class="case-meta">
+                            <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">Notifications</span>
+                        </div>
+                        <p><strong>Challenge:</strong> Manual bookings caused missed appointments and messy schedules.</p>
+                        <p><strong>Solution:</strong> Cross-platform app for customers to book services and for staff to manage the calendar.</p>
+                        <div class="case-result"><strong>Result:</strong> Organised bookings and fewer no-shows after launch.</div>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Start a similar project</a>
+                    </div>
+                </article>
+
+                <article class="case-card reveal">
+                    <div class="case-img">
+                        <img src="images/portfolio/project-3.jpg" alt="Corporate Website" class="img-slot" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fas fa-image\'></i><span>Add images/portfolio/project-3.jpg</span></div>'">
+                    </div>
+                    <div class="case-body">
+                        <div class="case-label">Business Website</div>
+                        <h3>Corporate company site</h3>
+                        <div class="case-meta">
+                            <span class="tag">HTML/CSS</span><span class="tag">SEO</span><span class="tag">CMS</span>
+                        </div>
+                        <p><strong>Challenge:</strong> Outdated site that did not reflect the brand or generate enquiries.</p>
+                        <p><strong>Solution:</strong> Modern multi-page site with services, team, blog and lead forms.</p>
+                        <div class="case-result"><strong>Result:</strong> Clearer brand presence and more qualified contact form submissions.</div>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Start a similar project</a>
+                    </div>
+                </article>
+
+                <article class="case-card reverse reveal">
+                    <div class="case-img">
+                        <img src="images/portfolio/project-4.jpg" alt="Restaurant platform" class="img-slot" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fas fa-image\'></i><span>Add images/portfolio/project-4.jpg</span></div>'">
+                    </div>
+                    <div class="case-body">
+                        <div class="case-label">Web Platform</div>
+                        <h3>Restaurant ordering platform</h3>
+                        <div class="case-meta">
+                            <span class="tag">React</span><span class="tag">PHP</span><span class="tag">MySQL</span>
+                        </div>
+                        <p><strong>Challenge:</strong> Needed online menu, table interest and order flow without chaos in the kitchen.</p>
+                        <p><strong>Solution:</strong> Ordering system with menu management and order status tracking.</p>
+                        <div class="case-result"><strong>Result:</strong> Smoother order handling during peak hours.</div>
+                        <a href="contact.html" class="btn btn-outline btn-sm">Start a similar project</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title reveal">More <span>projects</span></h2>
+            <p class="section-subtitle reveal">Additional work — add screenshots as <code>project-5.jpg</code> and <code>project-6.jpg</code>.</p>
             <div class="portfolio-grid">
-                <div class="portfolio-card reveal hover-lift">
-                    <div class="card-img"><i class="fas fa-store"></i></div>
+                <div class="portfolio-card reveal">
+                    <div class="card-img">
+                        <img src="images/portfolio/project-5.jpg" alt="LMS" class="img-slot" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fas fa-graduation-cap\'></i><span>images/portfolio/project-5.jpg</span></div>'">
+                    </div>
                     <div class="card-body">
-                        <h3>E-Commerce Fashion Store</h3>
-                        <p>Full online store with product catalogue, cart, secure checkout, order management and admin dashboard.</p>
-                        <div class="tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">Stripe</span>
-                            <span class="tag">MongoDB</span>
-                        </div>
+                        <h3>Learning platform</h3>
+                        <p>Courses, progress tracking and student access.</p>
+                        <div class="tags"><span class="tag">React</span><span class="tag">Firebase</span></div>
                     </div>
                 </div>
-                <div class="portfolio-card reveal delay-1 hover-lift">
-                    <div class="card-img"><i class="fas fa-mobile-alt"></i></div>
-                    <div class="card-body">
-                        <h3>Service Booking App</h3>
-                        <p>Cross-platform mobile app for booking services, managing appointments and customer notifications.</p>
-                        <div class="tags">
-                            <span class="tag">Flutter</span>
-                            <span class="tag">Firebase</span>
-                            <span class="tag">API</span>
-                        </div>
+                <div class="portfolio-card reveal delay-1">
+                    <div class="card-img">
+                        <img src="images/portfolio/project-6.jpg" alt="Real estate" class="img-slot" onerror="this.style.display='none'; this.parentElement.innerHTML='<div class=\'img-placeholder\'><i class=\'fas fa-home\'></i><span>images/portfolio/project-6.jpg</span></div>'">
                     </div>
-                </div>
-                <div class="portfolio-card reveal delay-2 hover-lift">
-                    <div class="card-img"><i class="fas fa-building"></i></div>
                     <div class="card-body">
-                        <h3>Corporate Business Website</h3>
-                        <p>Modern company website with service pages, team section, blog and lead capture forms.</p>
-                        <div class="tags">
-                            <span class="tag">HTML/CSS</span>
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">SEO</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-card reveal hover-lift">
-                    <div class="card-img"><i class="fas fa-utensils"></i></div>
-                    <div class="card-body">
-                        <h3>Restaurant Ordering Platform</h3>
-                        <p>Online menu, table reservation and food ordering system with real-time order tracking.</p>
-                        <div class="tags">
-                            <span class="tag">React</span>
-                            <span class="tag">PHP</span>
-                            <span class="tag">MySQL</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-card reveal delay-1 hover-lift">
-                    <div class="card-img"><i class="fas fa-graduation-cap"></i></div>
-                    <div class="card-body">
-                        <h3>Learning Management System</h3>
-                        <p>Course platform with video lessons, quizzes, progress tracking and student dashboard.</p>
-                        <div class="tags">
-                            <span class="tag">React</span>
-                            <span class="tag">Node.js</span>
-                            <span class="tag">Firebase</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-card reveal delay-2 hover-lift">
-                    <div class="card-img"><i class="fas fa-home"></i></div>
-                    <div class="card-body">
-                        <h3>Real Estate Listing Site</h3>
-                        <p>Property listings with search filters, image galleries, agent profiles and enquiry forms.</p>
-                        <div class="tags">
-                            <span class="tag">WordPress</span>
-                            <span class="tag">Custom Theme</span>
-                            <span class="tag">SEO</span>
-                        </div>
+                        <h3>Real estate listings</h3>
+                        <p>Property search, galleries and enquiry forms.</p>
+                        <div class="tags"><span class="tag">WordPress</span><span class="tag">SEO</span></div>
                     </div>
                 </div>
             </div>
@@ -119,9 +145,12 @@
 
     <section class="cta-section">
         <div class="container reveal">
-            <h2>Want Something <span>Similar?</span></h2>
-            <p>Let's discuss your project and create a solution tailored to your needs.</p>
-            <a href="contact.html" class="btn btn-primary btn-shine">Start a Project</a>
+            <h2>Want results like <span>these?</span></h2>
+            <p>Share your goals and get a clear proposal for website, store or app work.</p>
+            <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+                <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+                <a href="https://wa.me/2347086797982?text=Hi%20GEFFSTYLES%20WEB%20SAT%2C%20I%27m%20interested%20in%20a%20project." target="_blank" class="btn btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
         </div>
     </section>
 
@@ -130,22 +159,22 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="index.html" class="logo">GEFFSTYLES <span>WEB SAT</span></a>
-                    <p>Professional website & app development services based in Awka, Nigeria.</p>
+                    <p>Professional website, e-commerce and mobile app development based in Awka, Nigeria.</p>
                 </div>
                 <div class="footer-links">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="process.html">Process</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
                     <h4>Support</h4>
                     <ul>
-                        <li><a href="pricing.html">Pricing</a>
-                <a href="faq.html">FAQ</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -163,6 +192,6 @@
             </div>
         </div>
     </footer>
-    <a href="https://wa.me/2347086797982" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://wa.me/2347086797982?text=Hi%20GEFFSTYLES%20WEB%20SAT%2C%20I%27m%20interested%20in%20a%20project." target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
 </body>
 </html>
