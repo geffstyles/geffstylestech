@@ -1,4 +1,4 @@
-// GEFFSTYLES WEB SAT - Main Script
+// GEFFSTYLES TECHNOLOGIES - Main Script
 
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navLinks');
@@ -45,7 +45,7 @@ if (form) {
         const subject = document.getElementById('subject')?.value.trim() || 'Project Inquiry';
 
         if (name && email && message) {
-            const whatsappMsg = `Hi GEFFSTYLES WEB SAT! I'm ${name} (${email}).\n\nSubject: ${subject}\n\n${message}`;
+            const whatsappMsg = `Hi GEFFSTYLES TECHNOLOGIES! I'm ${name} (${email}).\n\nSubject: ${subject}\n\n${message}`;
             const url = `https://wa.me/2347086797982?text=${encodeURIComponent(whatsappMsg)}`;
             window.open(url, '_blank');
             form.reset();

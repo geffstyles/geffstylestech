@@ -1,4 +1,4 @@
-/* GEFFSTYLES WEB SAT - Animations */
+/* GEFFSTYLES TECHNOLOGIES - Animations */
 
 /* Fade & Slide Animations */
 @keyframes fadeInUp {
@@ -198,7 +198,7 @@
 .skill-bar span {
     display: block;
     height: 100%;
-    background: linear-gradient(90deg, #f5b042, #e89b2a);
+    background: linear-gradient(90deg, #0b6e4f, #00c2a8);
     border-radius: 20px;
     width: 0;
     transition: width 1.2s ease;
